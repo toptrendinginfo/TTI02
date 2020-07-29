@@ -1,0 +1,19 @@
+{
+  "name": "toptrending",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "all": "0.0.0",
+    "next": "9.3.3",
+    "react": "^16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
