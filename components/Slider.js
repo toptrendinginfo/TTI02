@@ -51,7 +51,7 @@ export default class Slider extends React.Component {
                   <h3 className="anim-elm">
                     <span>Top Trending Info</span> <br />
                   </h3>
-                  <Link href="/about">
+                  <Link href="/">
                     <a className="thm-btn anim-elm">Discover More</a>
                   </Link>
                 </div>
@@ -68,7 +68,7 @@ export default class Slider extends React.Component {
                   <h3 className="anim-elm">
                     <span>Top Trending Info</span>
                   </h3>
-                  <Link href="/about">
+                  <Link href="/">
                     <a className="thm-btn anim-elm">Discover More</a>
                   </Link>
                 </div>
@@ -85,7 +85,7 @@ export default class Slider extends React.Component {
                   <h3 className="anim-elm">
                     <span>Top Trending Info</span>
                   </h3>
-                  <Link href="/about">
+                  <Link href="/">
                     <a className="thm-btn anim-elm">Discover More</a>
                   </Link>
                 </div>

@@ -1,62 +1,53 @@
-import React,{ Component } from 'react';
+import React, { Component } from "react";
 
 export default class AboutFour extends React.Component {
-    constructor(){
-        super()
-    }
+  constructor() {
+    super();
+  }
 
-    render(){
-        return (
+  render() {
+    return (
+      <section className="about-four">
+        <img
+          src="/assets/images/shapes/virus-shape-1-2.png"
+          className="about-four__shape"
+          alt=""
+        />
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="about-four__image">
+                <img src="/assets/images/resources/about-3-1.png" alt="" />
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="about-four__content">
+                <div className="block-title text-left">
+                  <p>About</p>
+                  <h3>Top Trending Info</h3>
+                </div>
+                <p className="text-justify">
+                  We do Reviews of Latest Technology Products, Gadgets, Gizmos,
+                  mobile phones, tablets, laptops, cameras, apps etc. all latest
+                  gadgets and tech products to help you make a good decision.
+                  know which mobiles or any electronics appliances fits in your
+                  pocket and works
+                </p>
 
-            <section className="about-four">
-                <img src="/assets/images/shapes/virus-shape-1-2.png" className="about-four__shape" alt=""/>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6">
-                                <div className="about-four__image">
-                                    <img src="/assets/images/resources/about-3-1.png" alt=""/>
-                                        <div className="about-four__image-content">
-                                            <p>Call for any <br/> emergencies</p>
-                                            <h3><a href="tel:666-888-0000">666 888 0000</a></h3>
-                                        </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="about-four__content">
-                                    <div className="block-title text-left">
-                                        <p>About Coronavirus</p>
-                                        <h3>More Know About Coronavirus</h3>
-                                    </div>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered
-                                        alteration in some form, by injected humour, or not that ahnd randomised.</p>
-                                    <div className="about-two__icon-wrap">
-                                        <div className="about-two__icon-single">
-                                            <div className="about-two__icon">
-                                                <i className="vimns-icon-infected"></i>
-                                            </div>
-                                            <div className="about-two__icon-text">
-                                                <h3>4684,200 people <br/> Infected</h3>
-                                            </div>
-                                        </div>
-                                        <div className="about-two__icon-single">
-                                            <div className="about-two__icon">
-                                                <i className="vimns-icon-washing-hands"></i>
-                                            </div>
-                                            <div className="about-two__icon-text">
-                                                <h3>Daily <br/> Wash Hands</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered
-                                        alteration in some form, by injected humour, or not that ahnd randomised.</p>
-                                    <a href="#" className="thm-btn about-four__btn">Discover More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </section>
-        )
-    }
+                <p>
+                  Read the most comprehensive Car Reviews of the Indian
+                  automobile industry We help you in car buying decision? Read
+                  real car user reviews on almost every car in India. Connect
+                  with other car owners and learn from there..
+                </p>
+                <a href="#" className="thm-btn about-four__btn">
+                  Discover More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
 }

@@ -30,7 +30,7 @@ export default class NavTwo extends React.Component {
                   <p>Send Email</p>
                 </div>
               </div>
-              
+
               <div className="topbar-one__social">
                 <a href="#" className="fab fa-facebook-square"></a>
                 <a href="#" className="fab fa-twitter"></a>
@@ -59,7 +59,7 @@ export default class NavTwo extends React.Component {
                       <a href="/">Home</a>
                     </li>
                     <li>
-                      <Link href="/about">
+                      <Link href="/">
                         <a>About</a>
                       </Link>
                     </li>
@@ -68,45 +68,45 @@ export default class NavTwo extends React.Component {
                       <a href="#">Products</a>
                       <ul>
                         <li>
-                          <a href="/index-dark">Mobile</a>
+                          <a href="/">Mobile</a>
                         </li>
                         <li>
-                          <a href="/index-dark-2">Smart Watch</a>
+                          <a href="/">Smart Watch</a>
                         </li>
                         <li>
-                          <a href="/index-dark-2">Laptop</a>
+                          <a href="/">Laptop</a>
                         </li>
                         <li>
-                          <a href="/index-dark-2">Home Appliances</a>
+                          <a href="/">Home Appliances</a>
                         </li>
                         <li>
-                          <a href="/index-dark-2">Desktop Computer</a>
+                          <a href="/">Desktop Computer</a>
                         </li>
                         <li>
-                          <a href="/index-dark-2">Computer Peripherals</a>
+                          <a href="/">Computer Peripherals</a>
                         </li>
                       </ul>
                     </li>
 
                     <li>
-                      <Link href="/faq">
+                      <Link href="/">
                         <a>AutoMobiles</a>
                       </Link>
                     </li>
 
                     <li className="dropdown">
-                      <Link href="/news">
+                      <Link href="/">
                         <a>News</a>
                       </Link>
                       <ul>
                         <li>
-                          <Link href="/news">
-                            <a>News Page</a>
+                          <Link href="/">
+                            <a>Gadgets news</a>
                           </Link>
                         </li>
                         <li>
-                          <Link href="/news-details">
-                            <a>News Details</a>
+                          <Link href="/">
+                            <a>AutoMobile News</a>
                           </Link>
                         </li>
                       </ul>
