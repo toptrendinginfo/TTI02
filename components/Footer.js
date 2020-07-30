@@ -33,13 +33,15 @@ export default class Footer extends React.Component {
             <div className="side-menu__sep"></div>
             <div className="side-menu__content">
               <p>
-                Lorem Ipsum is simply dummy text the printing and setting
-                industry. Lorm Ipsum has been the industry's stanard dummy text
-                ever.{" "}
+                We do Reviews of Latest Technology Products, Gadgets, Gizmos,
+                mobile phones, tablets, laptops, cameras, apps etc. all latest
+                gadgets and tech products to help you make a good decision.
               </p>
               <p>
-                <a href="mailto:needhelp@bizkar.com">needhelp@bizkar.com</a>{" "}
-                <br /> <a href="tel:888-999-0000">888 999 0000</a>
+                <a href="mailto:eximius.gadgets@gmail.coms">
+                  eximius.gadgets@gmail.com
+                </a>
+                <br /> <a href="/">888 999 0000</a>
               </p>
               <div className="side-menu__social">
                 <a className="fab fa-facebook-f" href="#"></a>
